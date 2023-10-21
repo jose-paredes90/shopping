@@ -1,5 +1,5 @@
 # Node server
-FROM node:16-alpine as node
+FROM node:latest as node
 WORKDIR /app
 COPY ./ /app
 RUN npm install
